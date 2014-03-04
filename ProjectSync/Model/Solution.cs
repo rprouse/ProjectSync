@@ -32,6 +32,9 @@ namespace Alteridem.ProjectSync.Model
     [XmlType("solution")]
     public class Solution
     {
+        [XmlAttribute("schemaLocation", Namespace = System.Xml.Schema.XmlSchema.InstanceNamespace )]
+        public string SchemaLocation = "projectsync.xsd";
+
         [XmlAttribute("name")]
         public string Name { get; set; }
 
