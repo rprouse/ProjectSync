@@ -46,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Automation\VisualStudio.cs" />
+    <Compile Include="Model\Project.cs" />
+    <Compile Include="Model\ProjectGroup.cs" />
+    <Compile Include="Model\Solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
