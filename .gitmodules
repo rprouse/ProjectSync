@@ -1,0 +1,3 @@
+[submodule "alter.net"]
+    path = alter.net
+    url = git@github.com:rprouse/alter.net.git

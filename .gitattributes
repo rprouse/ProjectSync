@@ -64,3 +64,5 @@
 
 # Resharper DotSettings files are in Unix Format
 *.DotSettings text eol=lf
+
+.gitmodules text eol=lf

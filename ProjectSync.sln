@@ -7,6 +7,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSync", "ProjectSync\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSync.Test", "ProjectSync.Test\ProjectSync.Test.csproj", "{3CC492C2-CD61-4CD3-8B62-BC079C638DED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C0066E6-86EE-4180-8FB8-6B995329A09D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "alter.net", "alter.net", "{39EA086F-9FBF-492E-BF31-30F9EC9896B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alter.net", "alter.net\alter.net.csproj", "{559D7916-5437-430B-AC6C-BB273CE42228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alter.net.test", "alter.net\test\alter.net.test.csproj", "{367E49E9-BA7B-4357-B923-925381F3E9C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +35,20 @@ Global
 		{3CC492C2-CD61-4CD3-8B62-BC079C638DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CC492C2-CD61-4CD3-8B62-BC079C638DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CC492C2-CD61-4CD3-8B62-BC079C638DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559D7916-5437-430B-AC6C-BB273CE42228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559D7916-5437-430B-AC6C-BB273CE42228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559D7916-5437-430B-AC6C-BB273CE42228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559D7916-5437-430B-AC6C-BB273CE42228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367E49E9-BA7B-4357-B923-925381F3E9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367E49E9-BA7B-4357-B923-925381F3E9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367E49E9-BA7B-4357-B923-925381F3E9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367E49E9-BA7B-4357-B923-925381F3E9C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{559D7916-5437-430B-AC6C-BB273CE42228} = {39EA086F-9FBF-492E-BF31-30F9EC9896B9}
+		{367E49E9-BA7B-4357-B923-925381F3E9C2} = {39EA086F-9FBF-492E-BF31-30F9EC9896B9}
 	EndGlobalSection
 EndGlobal
